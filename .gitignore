@@ -1,0 +1,112 @@
+###############################################################################
+# OS-generated files (macOS)
+###############################################################################
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+###############################################################################
+# OS-generated files (Linux / Debian / general Unix)
+###############################################################################
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+###############################################################################
+# OS-generated files (Windows)
+###############################################################################
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+###############################################################################
+# Python
+###############################################################################
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.env.*
+.venv
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# Packaging / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+pytestdebug.log
+
+# IDE / editor (Python-adjacent)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+###############################################################################
+# Node.js / npm
+###############################################################################
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.tmp/
+.cache/
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Lock files (keep if policy requires; ignored by default here)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+###############################################################################
+# Project-specific notes
+###############################################################################
+# src/ is intentionally tracked even if empty
+# artifacts/ may be empty or populated depending on version
+# VERSION.md, README.md, and docs/ are always tracked
+
