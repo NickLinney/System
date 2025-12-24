@@ -1,86 +1,70 @@
 # VERSION.md
 
-## Pre-Alpha 3 (`0.0.0-pre-alpha.3`)
+## Alpha 1 (`0.1.0-alpha`)
 
-**Release Type:** Pre-Alpha
-**Audience:** Early readers, theorists, implementors, and designers evaluating the ontology
-**Stability:** Experimental (no backward-compatibility guarantees)
+**Release Type:** Alpha  
+**Audience:** Contributors and early implementors beginning active testing and experimentation  
+**Stability:** Alpha (architecture considered stable; changes remain possible)
 
 ---
 
 ## Purpose of This Version
 
-This version represents a **conceptual consolidation milestone**.
+`0.1.0-alpha` marks the transition from Pre-Alpha drafts to an Alpha phase where the project is ready for **external testing and contribution** against a more stable conceptual baseline.
 
-Pre-Alpha 3 exists to:
+This version exists to:
 
-* Clarify the ontological intent of The System
-* Correct over-interpretations that implied guarantees, preservation, or authority
-* Establish precise language around **observation**, **transmutation**, **agency**, and **co-observation**
-* Provide a stable narrative and architectural reference point for future drafts
-
-This version is not feature-complete in an implementation sense, but is **internally coherent** in its conceptual framing.
+- Establish Alpha readiness for contributor review and testing
+- Provide a clear gateway (`README.md`) and stable documentation set in `docs/`
+- Introduce a minimal example implementation artifact to support experimentation without prescribing implementations
 
 ---
 
 ## Documentation
 
-The following documents are authoritative for this version:
+Authoritative documents for this version:
 
-* `docs/ABSTRACT.md`
-  Refined narrative articulation of intent, origin, and purpose, emphasizing *observed knowledge*, co-observation, and perceptive discipline without over-claiming outcomes.
-
-* `docs/ARCHITECTURE.md`
-  Formal design observations describing the non-totalizing, non-coercive, externally governed ontology of The System.
-
-* `docs/CONTRIBUTING.md`
-  Contribution posture and licensing intent, clarifying forks, adapters, extensions, and the rarity of direct core changes.
-
-* `docs/VERSIONING.md`
-  Canonical definition of lifecycle phases and semantic versioning rules.
-
-* `docs/RELEASING.md`
-  Release discipline and invariants governing tagged versions.
+- `docs/ABSTRACT.md`
+- `docs/ARCHITECTURE.md`
+- `docs/CONTRIBUTING.md`
+- `docs/VERSIONING.md`
+- `docs/RELEASING.md`
 
 ---
 
-## Scope Clarifications Introduced in This Version
+## Example Implementation Artifacts
 
-This version explicitly establishes that:
+This version introduces an **example implementation** under `./src/`:
 
-* The System does **not** guarantee documentation, preservation, accuracy, or truth
-* The System does **not** assign or preserve semantics such as quality or veracity
-* Observation and Transmutation are the only fundamental actions
-* Any semantics beyond representation must be supplied explicitly by an Alchemist
-* Guarantees, validation, or enforcement are matters of extension, not ontology
+- `build.sh`  
+  A repository tool that generates an example `./src/System` artifact.
 
-These clarifications correct ambiguities present in earlier drafts.
+- `./src/System`  
+  A generated example representation intended to support exploration and testing.
+  It is not required for using or understanding The System, and it does not define the ontology.
+  It is one possible representation produced by one build tool in this repository.
+
+No guarantees are made about what this example captures, what it contains, or what can be inferred from it. Any semantics, quality statements, or claims of veracity must be represented explicitly by operators within the Elements/Properties/Rules of their chosen implementation.
 
 ---
 
-## Known Limitations (Accepted for Pre-Alpha)
+## Artifacts Directory Policy
 
-* The ontology is descriptive, not executable
-* No formal glossary is yet canonical
-* No reference implementation is provided
-* Terminology may continue to be refined in subsequent pre-alpha drafts
-* No guarantees are made regarding future structural continuity
+The `./artifacts/` directory may be empty in a given version. It exists to hold version-specific or cross-version build artifacts when applicable. For this release, it is intentionally empty (retained in Git via a placeholder file).
 
-These limitations are intentional and consistent with the Pre-Alpha phase.
+---
+
+## Known Limitations (Accepted for Alpha)
+
+- The ontology remains documentation-first; no canonical runtime exists
+- The example implementation is illustrative, not normative
+- Terminology and phrasing may continue to be refined
+- Backward compatibility remains best-effort during Alpha
 
 ---
 
 ## Compatibility Notes
 
-* This release is additive in clarification, but **not guaranteed backward-compatible**
-* Future Pre-Alpha versions may revise terminology, structure, or emphasis
-* This version should be treated as an immutable conceptual snapshot
-* Intended for evaluation and exploration, not prescriptive of outcomes
-
----
-
-## Closing Note
-
-Pre-Alpha 3 marks the point at which The System’s **intent, constraints, and non-promises** are explicitly stated rather than implied.
-
-Subsequent versions may expand, refine, or restructure the ontology, but this version serves as a stable reference for understanding *what The System is—and what it deliberately is not*.
+- Alpha versions follow the project’s lifecycle rules in `docs/VERSIONING.md`
+- This release is intended for early adopters and contributors, not prescriptive of outcomes
+- Changes may occur within Alpha, but the architecture is treated as stable enough for active contribution
