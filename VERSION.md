@@ -1,69 +1,86 @@
 # VERSION.md
 
-*(for `0.0.0-pre-alpha.2`)*
-
-## Pre-Alpha 2 (`0.0.0-pre-alpha.2`)
+## Pre-Alpha 3 (`0.0.0-pre-alpha.3`)
 
 **Release Type:** Pre-Alpha
-**Audience:** Early readers, theorists, and prospective implementors
+**Audience:** Early readers, theorists, implementors, and designers evaluating the ontology
 **Stability:** Experimental (no backward-compatibility guarantees)
 
-------
+---
 
 ## Purpose of This Version
 
-Pre-Alpha 2 represents the **first substantive refinement** of The System.
+This version represents a **conceptual consolidation milestone**.
 
-This version builds upon the initial specification by expanding, correcting, and re-articulating core ideas that were implicit or underdefined in Pre-Alpha 1. It reflects deeper engagement with the consequences of observation, agency, and representation.
+Pre-Alpha 3 exists to:
 
-As with Pre-Alpha 1, documentation for this version is **retroactively generated**.
+* Clarify the ontological intent of The System
+* Correct over-interpretations that implied guarantees, preservation, or authority
+* Establish precise language around **observation**, **transmutation**, **agency**, and **co-observation**
+* Provide a stable narrative and architectural reference point for future drafts
 
-------
+This version is not feature-complete in an implementation sense, but is **internally coherent** in its conceptual framing.
 
-## Primary Artifacts
+---
 
-This version is defined by the following documents:
+## Documentation
 
-- `artifacts/The_System_Pre_Alpha_Spec.md`
-- `artifacts/The_System_Pre_Alpha_Spec_2.md`
+The following documents are authoritative for this version:
 
-Together, these documents represent the complete conceptual state of The System at this stage.
+* `docs/ABSTRACT.md`
+  Refined narrative articulation of intent, origin, and purpose, emphasizing *observed knowledge*, co-observation, and perceptive discipline without over-claiming outcomes.
 
-------
+* `docs/ARCHITECTURE.md`
+  Formal design observations describing the non-totalizing, non-coercive, externally governed ontology of The System.
 
-## Advancements Over Pre-Alpha 1
+* `docs/CONTRIBUTING.md`
+  Contribution posture and licensing intent, clarifying forks, adapters, extensions, and the rarity of direct core changes.
 
-Compared to the initial draft, this version:
+* `docs/VERSIONING.md`
+  Canonical definition of lifecycle phases and semantic versioning rules.
 
-- Expands the ontology to address previously implicit assumptions
-- Introduces clearer language around observation and representation
-- Begins to surface tensions around authority, agency, and completeness
-- Demonstrates the need for more explicit architectural boundaries
+* `docs/RELEASING.md`
+  Release discipline and invariants governing tagged versions.
 
-However, these advancements remain exploratory rather than definitive.
+---
 
-------
+## Scope Clarifications Introduced in This Version
+
+This version explicitly establishes that:
+
+* The System does **not** guarantee documentation, preservation, accuracy, or truth
+* The System does **not** assign or preserve semantics such as quality or veracity
+* Observation and Transmutation are the only fundamental actions
+* Any semantics beyond representation must be supplied explicitly by an Alchemist
+* Guarantees, validation, or enforcement are matters of extension, not ontology
+
+These clarifications correct ambiguities present in earlier drafts.
+
+---
 
 ## Known Limitations (Accepted for Pre-Alpha)
 
-- Ontological constraints are still emergent
-- Terminology continues to shift between drafts
-- No explicit non-promises are yet formalized
-- No stable narrative abstraction (e.g., Abstract or Architecture documents)
-- No defined release or contribution discipline
+* The ontology is descriptive, not executable
+* No formal glossary is yet canonical
+* No reference implementation is provided
+* Terminology may continue to be refined in subsequent pre-alpha drafts
+* No guarantees are made regarding future structural continuity
 
-------
+These limitations are intentional and consistent with the Pre-Alpha phase.
+
+---
 
 ## Compatibility Notes
 
-- This version is **not guaranteed compatible** with Pre-Alpha 1 or later drafts
-- Concepts may be redefined, renamed, or discarded in future versions
-- This version should be treated as an immutable historical snapshot
+* This release is additive in clarification, but **not guaranteed backward-compatible**
+* Future Pre-Alpha versions may revise terminology, structure, or emphasis
+* This version should be treated as an immutable conceptual snapshot
+* Intended for evaluation and exploration, not prescriptive of outcomes
 
-------
+---
 
 ## Closing Note
 
-Pre-Alpha 2 marks the point at which The System begins to **push back against its own assumptions**.
+Pre-Alpha 3 marks the point at which The System’s **intent, constraints, and non-promises** are explicitly stated rather than implied.
 
-It exposes the need for clearer articulation of limits, authority, and intent—needs that directly motivate the structural documentation introduced in subsequent versions.
+Subsequent versions may expand, refine, or restructure the ontology, but this version serves as a stable reference for understanding *what The System is—and what it deliberately is not*.
