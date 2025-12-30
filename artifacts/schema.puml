@@ -1,0 +1,58 @@
+@startuml
+skinparam handwritten false
+skinparam monochrome true
+skinparam packageStyle rect
+
+package "System Core" {
+    class Node_System << (N,#FF7700) Immutable >> {
+        id: SYSTEM
+        type: System
+        label: The System
+    }
+
+    class Node_Meta << (N,#ADD1B2) >> {
+        id: META
+        type: Element
+        label: Meta
+    }
+
+    class Node_Rules << (N,#ADD1B2) >> {
+        id: RULES_SYSTEM
+        type: Rule
+        label: System Rules
+    }
+}
+
+package "Rules & State" {
+    object First_Rule {
+        key: "first_rule"
+        value: "The Alchemist is in control."
+    }
+    
+    object Version {
+        key: "version"
+        value: "0.0.0-pre-alpha-3"
+    }
+}
+
+' Relationships (Edges)
+Node_System --> Node_Meta : E_SYSTEM_META (HAS_ELEMENT)
+Node_Meta --> Node_Rules : E_META_RULES (HAS_RULE)
+
+' Key-Value ownership
+Node_System ..> Version : stores
+Node_Rules ..> First_Rule : stores
+
+note right of Node_System
+  <b>PROTECTED BY TRIGGERS:</b>
+  * No Delete
+  * No Update
+end note
+
+note bottom of First_Rule
+  <b>IMMUTABLE REFERENCE:</b>
+  The 'first_rule_ref' cannot 
+  be changed once set.
+end note
+
+@enduml
