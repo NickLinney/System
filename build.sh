@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Create ./src/System.db as the first concrete "System artifact" for pre-alpha-3.
+# Create ./src/System as the first concrete "System artifact" for pre-alpha-3.
 # Requires: sqlite3
 
 DB_PATH="./src/System"

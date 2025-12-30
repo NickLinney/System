@@ -1,5 +1,56 @@
 # VERSION.md
 
+## Alpha 2 (`0.1.1-alpha`)
+
+**Release Type:** Alpha (Patch)  
+**Audience:** Contributors and early implementors  
+**Stability:** Alpha (architecture unchanged; clarifications and artifacts added)
+
+---
+
+## Purpose of This Version
+
+`0.1.1-alpha` is a **patch release** to the initial Alpha version.
+
+This version exists to:
+
+- Correct minor documentation issues discovered during early Alpha use
+- Add non-normative visual artifacts to support conceptual understanding
+- Improve internal consistency of versioning and changelog records
+
+No new architectural concepts, rules, or behaviors are introduced in this release.
+
+---
+
+## Documentation Changes
+
+- Corrected `docs/ABSTRACT.md` by removing unintended templating artifacts
+- Updated `VERSION.md` to reflect the `0.1.1-alpha` patch
+- Updated `docs/CHANGELOG.md` to comprehensively record changes across all releases
+
+---
+
+## Artifacts Directory Update
+
+This version adds illustrative schema artifacts to `./artifacts/`:
+
+- `schema.puml`
+- `schema.svg`
+
+These artifacts are **reference-only** and do not define or constrain implementations.  
+They exist solely to aid understanding of relationships described in the documentation.
+
+---
+
+## Compatibility Notes
+
+- Fully compatible with `0.1.0-alpha`
+- No breaking changes
+- No semantic or ontological shifts
+- All Alpha lifecycle guarantees and limitations remain unchanged
+
+---
+
 ## Alpha 1 (`0.1.0-alpha`)
 
 **Release Type:** Alpha  

@@ -1,7 +1,7 @@
 # RELEASING.md
 ## Release Process Checklist
 
-This document defines the **authoritative checklist** for preparing, validating, tagging, and publishing a new release of the TeamDynamix API Python client.
+This document defines the **authoritative checklist** for preparing, validating, tagging, and publishing a new release of The System.
 
 Every release — pre-alpha, alpha, beta, RC, or stable — must follow this process.
 
