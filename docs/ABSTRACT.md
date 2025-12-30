@@ -1,15 +1,3 @@
-Below is a **clean, fully revised version of `ABSTRACT.md`**, incorporating your clarification about **co-observation**, removing *all* language that implies preservation, guarantees, or promises about documentation or data quality, and aligning strictly with the operative mechanics you’ve specified:
-
-- No implied guarantees
-- No claims of preservation
-- No promises about data presence or veracity
-- Observation and Transmutation as the only actions
-- Any semantics about quality, truth, or authority must be supplied explicitly by the Alchemist via Elements, Properties, Rules, or Subsystems
-
-The changes are clarifying, not expansive.
-
-------
-
 # ABSTRACT.md
 
 ## An Ontological System for Action, Observation, and Record
